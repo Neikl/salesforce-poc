@@ -39,7 +39,7 @@ stages{
  steps{
 
  echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
- sh "source /etc/profile && xvfb-run ant -f Provar-testing/ANT/build.xml -v"
+ sh "source /etc/profile && xvfb-run ant -f Provar-testing/ANT/build.xml"
 
  }
 
